@@ -12,6 +12,7 @@ import { DiretivaNgstyleComponent } from './diretiva-ngstyle/diretiva-ngstyle.co
 import { OperadorElvisComponent } from './operador-elvis/operador-elvis.component';
 import { DiretivaNgcontentComponent } from './diretiva-ngcontent/diretiva-ngcontent.component';
 import { TesteDiretvasComponent } from './teste-diretvas/teste-diretvas.component';
+import { HighlightMouseDirective } from './diretivas/highlight-mouse.directive';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TesteDiretvasComponent } from './teste-diretvas/teste-diretvas.componen
     OperadorElvisComponent,
     DiretivaNgcontentComponent,
     FundoAmareloDirective,
-    TesteDiretvasComponent
+    TesteDiretvasComponent,
+    HighlightMouseDirective
   ],
   imports: [
     BrowserModule,
