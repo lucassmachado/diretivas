@@ -9,3 +9,11 @@
 <p [highlight]="'red'" [defaultColor]="'grey'">
   Texto com highlight de diretivas customizadas
 </p>
+<br>
+<button (click)="onMostrarCursos()">Motrar ou esconder cursos</button>
+<div *ngIf="mostrarCursos">
+  Lista de cursos aqui
+</div>
+<div *ngElse="mostrarCursos">
+  Não existem cursos para serem listados
+</div>

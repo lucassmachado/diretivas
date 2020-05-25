@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TesteDiretvasComponent implements OnInit {
 
+  mostrarCursos = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onMostrarCursos() {
+    this.mostrarCursos = !this.mostrarCursos;
   }
 
 }

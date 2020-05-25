@@ -14,6 +14,7 @@ import { DiretivaNgcontentComponent } from './diretiva-ngcontent/diretiva-ngcont
 import { TesteDiretvasComponent } from './teste-diretvas/teste-diretvas.component';
 import { HighlightMouseDirective } from './diretivas/highlight-mouse.directive';
 import { HighlightDirective } from './diretivas/highlight.directive';
+import { NgElseDirective } from './diretivas/ng-else.directive';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HighlightDirective } from './diretivas/highlight.directive';
     FundoAmareloDirective,
     TesteDiretvasComponent,
     HighlightMouseDirective,
-    HighlightDirective
+    HighlightDirective,
+    NgElseDirective
   ],
   imports: [
     BrowserModule,
